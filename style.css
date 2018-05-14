@@ -1,72 +1,46 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
+.container {
+  align-content: left;
 }
 
-header {
-  background: #333;
-}
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
+
 
 h2 {
-  font-size: 24px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: Left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: teal
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 25px; 
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px
+  font-weight: bold;
+  color: teal;
 }
 
-a {
-  color: #d21034;
+.grey {
+  background: rgb(223, 216, 216);
 }
 
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
+img {
+  max-width: 50%;  
 }
 
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+#windmap {
+  max-width: 23%;
 }
-
-#figure {
-  position: relative;
+#hummap {
+  max-width: 23%;
 }
-
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
+#cloudmap {
+  max-width: 23%;
 }
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+#tempmap {
+  max-width: 23%;
 }
