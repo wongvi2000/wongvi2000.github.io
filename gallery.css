@@ -1,0 +1,122 @@
+﻿.picture-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.picture-flex {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.back-button a {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+.gallery {
+    margin-left: 200px;
+}
+.description3 {
+    padding-top: 0%;
+    padding-right: 6%;
+    padding-bottom: 0%;
+    font-size: 40px;
+    font-family: 'Unlock';
+}
+
+.thumbnail {
+    height: 85px;
+    width: 120px;
+    font-family: 'Unlock';
+    align-items:center;
+}
+.carousel-inner img{
+    height: 425px;
+    width: 550px;
+}
+* {box-sizing: border-box}
+body {margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(225,225,225);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.item-picture {
+    padding-left: 30px;
+}
+.thumbnail:hover {
+.thumbnail:hover {
+    opacity: 0.75;
+}

@@ -1,0 +1,60 @@
+﻿/*shop div style*/
+.shop {
+    padding: 50px 10px 50px 10px;
+}
+.shop-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 30px;
+    padding-right: 10px
+}
+.shop-flex {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.shop-contents p2 {
+    font-size: 18px
+}
+.shop-picture {
+    padding-left: 30px
+}
+/*Carousel picture for Shop & About Section*/
+.carousel-inner img{
+    height: 425px;
+    width: 550px;
+}
+/*about us div style*/
+.about {
+    padding: 40px 0px 40px 0px;
+}
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.about-flex {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.about-picture {
+    padding-left: 0px
+}
+.about-contents p2 {
+    font-size: 18px
+}
+.about-contents {
+    padding-left: 40px
+}
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-button {
+    display: block;
+    margin: 0 auto;
+    width: 175px;
+}
+

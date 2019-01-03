@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <!--Code to display favicon on address line--> 
+    <link rel="Shortcut Icon" href="res/img/index/favicon.jpg">
+   
+    <!--Bootstrap Style libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unlock">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <!--Javascript libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Local Bootstrap libaries if no internet connectivity in res folder path-->
+    <link rel="stylesheet" type="text/css" href="res/bs-css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="res/fontawesome/web-fonts-with-css/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <title>Peking Arts & Antiques</title>
+</head>
+    <body>
+        <!--Define start of Container for Jumbotron which includes logo, navbar enclosing same color-->
+        <div class="jumbotron text-center">
+            <div class="container">
+                <div class="logos-flex">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html"><img class="logo" src="res/img/pkart-logo.jpg" alt="Peking Arts & Antiques Logo"></a>
+                    </div>
+                    <div class="titles">
+                        <h1 class="title">Peking Arts & Antiques</h1>
+                        <p2 class="description3">Gallery of Products</p2>
+                    </div>
+                </div>
+                <br>
+                <ul class="nav justify-content-center">
+                    <li class="headOpt"><a href="index.html" class="link">Home</a></li>
+                    <li class="headOpt"><a href="gallery.html" class="link">Gallery</a></li>
+                    <li class="headOpt"><a href="about.html" class="link">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Define start of the thumbnails for gallery of products Row 1 -->
+        <div class="part1" id="section1">
+            <br><br>
+            <div class="gallery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>&nbsp;Screens</h3>
+                                <a href="#screens" class="link"><img src="thumbnails/screen1.jpg" class="img-thumbnail" alt="screen"></a>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Cabinets</h3>
+                                <a href="#cabinets" class="link"><img src="thumbnails/cabinet1.jpg" class="img-thumbnail" alt="cabinet"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Porcelain</h3>
+                                <a href="#porcelain" class="link"><img src="thumbnails/porcelain1.jpg" class="img-thumbnail" alt="porcelain"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <!--Define start of the thumbnails for gallery of products Row 2-->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Carvings</h3>
+                                <a href="#jade&stone" class="link"><img src="thumbnails/carvings1.jpg" class="img-thumbnail" alt="carvings"></a>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>Sculptures</h3>
+                                <a href="#marble&wood" class="link"><img src="thumbnails/sculptures1.jpg" class="img-thumbnail" alt="sculptures"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <h3>&nbsp;&nbsp;Pottery</h3>
+                                <a href="#pottery" class="link"><img src="thumbnails/pottery1.jpg" class="img-thumbnail" alt="pottery"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div class="part2">
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id="screens">
+                    <div class="text-contents">
+                        <h3>Screens</h3>
+                        <p2>We offer various hand crafted decorative coromandel multi-panel screens. The Coromandel lacquer technique emerged in 16<sup>th</sup> century China where craftsmen prepared wooden screen panels by applying many layers of soft clay. <br><br>The following product is a carved coromandel 12 panel screen with an imperial garden scene and carved story inscriptions (20 x 108 inches).</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                       <div class="w3-content w3-display-container">
+                            <img class="mySlides1" src="img/screen1.jpg" style="width:400px">
+                            <img class="mySlides1" src="img/screen2.jpg" style="width:400px">
+                            <img class="mySlides1" src="img/screen3.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id="cabinets">
+                    <div class="text-contents">
+                        <h3>Cabinets</h3>
+                        <p2>We offer various decorative wooden cabinets in black & brown color variations ranging in various sizes.<br><br>The following product is a fine quality 19<sup>th</sup> century of Shansi lacquer painted large cabinet (52 x 24 x 77 inches).</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                       <div class="w3-content w3-display-container">
+                            <img class="mySlides2" src="img/cabinet1.jpg" style="width:400px">
+                            <img class="mySlides2" src="img/cabinet2.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id="porcelain">
+                    <div class="text-contents">
+                        <h3>Porcelain</h3>
+                        <p2>We offer various decorative porcelain items such as vases, flower pots, garden stools, and plates in many Chinese designs and sizes. <br><br>The following product is a pair of 19<sup>th</sup> Century Famille Rose Vases (22.5 inches).</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides3" src="img/porcelain1.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain2.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain3.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain4.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain5.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain6.jpg" style="width:400px">
+                            <img class="mySlides3" src="img/porcelain7.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id="jade&stone">
+                    <div class="text-contents">
+                        <h3>Jade & Stone Carvings</h3>
+                        <p2>We offer a wide selection of jade and stone carvings from Jadeite, Nephrite, Serprentine, and soap stone materials. <br><br>The following products showcase our offerings in various colors and designs.</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides4" src="img/carvings1.jpg" style="width:400px">
+                            <img class="mySlides4" src="img/carvings2.jpg" style="width:400px">
+                            <img class="mySlides4" src="img/carvings3.jpg" style="width:400px">
+                            <img class="mySlides4" src="img/carvings4.jpg" style="width:400px">
+                            <img class="mySlides4" src="img/carvings5.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id=marble&wood>
+                    <div class="text-contents">
+                        <h3>Marble & Wood Sculptures</h3>
+                        <p2>We offer various unique marbe & wood sculptures as unique collectables ranging in design and size. <br><br>The following products show a mid-20<sup>th</sup> century sculpture of a marble sitting Guanyin on elephant (33 inches) and wood carving of mediation Guanyin (54 inches).</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides5" src="img/sculptures1.jpg" style="width:400px">
+                            <img class="mySlides5" src="img/sculptures2.jpg" style="width:400px">
+                            <img class="mySlides5" src="img/sculptures3.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="picture-flex" id="pottery">
+                    <div class="text-contents">
+                        <h3>Pottery</h3>
+                        <p2>We offer various decorative antique pottery ranging in many designs and sizes. <br><br> The following products show a circa 1960s green gazed unicorn (17 inches) and Han Dynasty 220AD pottery storage drum (15 inches).</p2>
+                        <br><br>
+                        <div class="back-button">
+                            <a href="#section1" class="link"><b>Back</b></a>
+                        </div>
+                    </div>
+                    <div class="item-picture">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides6" src="img/pottery1.jpg" style="width:400px">
+                            <img class="mySlides6" src="img/pottery2.jpg" style="width:400px">
+                            <img class="mySlides6" src="img/pottery3.jpg" style="width:400px">
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 5)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 5)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <!--Define start of the legal footer section-->
+        <footer class="legal">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="legal-info">
+                        <div class="footer-col">
+                            <h2 class="footer-title">Contact</h2>
+                            <p>
+                                535 Sutter Street, Suite 100 <br>
+                                San Francisco, CA 94102 <br>
+                                sfpekingarts@gmail.com <br>
+                                (415) 433-6780
+                            </p>
+                        </div>
+                        <div class="footer-col">
+                            <h2 class="footer-title">Connect</h2>
+                            <div class="social-media">
+                                <a href="#"><i class="fa fa-facebook-square social-logo"></i></a>
+                                <a href="mailto:sfpekingarts@gmail.com"><i class="fa fa-envelope social-logo"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <h2 class="footer-title">Links</h2>
+                            <a href="index.html" class="link-foot">Home</a><br>
+                            <a href="gallery.html" class="link-foot">Gallery</a><br>
+                            <a href="about.html" class="link-foot">About</a>
+                        </div>
+                    </div>
+                    <div class="copyright">Copyright Ⓒ 2019 Peking Arts & Antiques</div>
+                </div>
+            </div>
+        </footer>
+        <script src="gallery.js" type="text/javascript"></script>
+    </body>
+</html>

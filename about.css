@@ -1,0 +1,53 @@
+﻿.description2 {
+    padding-top: 0%;
+    padding-right: 9%;
+    padding-bottom: 0%;
+    font-size: 40px;
+    font-family: 'Unlock';
+}
+#map {
+    height: 500px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    width:900px;
+}
+.about-text p {
+    margin-left: 20px;
+    padding-right: 121px;
+    font-size: 18px
+}
+.about-text h3 {
+    margin-left: 20px;
+    padding-right: 121px;
+}
+.store-front-pic {
+    border-style: solid;
+    border-width:8px;
+    border-color: rgb(0,0,0);
+    width: 900px;
+    height: 500px;
+    margin-left: 110px;
+}
+.carousel-inner{
+    overflow: hidden;
+}
+.map {
+    margin-left: 110px;
+}
+.map-text h3 {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.map-text table {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.telephone-number {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.map-text p {
+    margin-left: 20px;
+    padding-right: 10px;
+}
