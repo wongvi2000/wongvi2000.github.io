@@ -32,6 +32,8 @@
     width: 120px;
     font-family: 'Unlock';
     align-items:center;
+    text-align: center;
+    margin: 0 auto;
 }
 .carousel-inner img{
     height: 425px;
