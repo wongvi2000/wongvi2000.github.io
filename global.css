@@ -70,8 +70,8 @@
 }
 .logo {
     transition: opacity 0.5s ease;
-    height: 85%;
-    width: 85%;
+    height: 60%;
+    width: 60%;
 }
 .logo:hover {
     opacity: 0.75;
