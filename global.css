@@ -74,6 +74,7 @@
     height: 40%;
     width: 40%;
     padding-top: 25px;
+    padding-right: 20px;
 }
 .logo:hover {
     opacity: 0.75;
@@ -109,6 +110,7 @@
 
 .titles {
     padding-top: 25px;
+    padding-right: 30px;
 }
 .logos-flex {
     display: flex;
