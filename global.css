@@ -110,7 +110,7 @@
     padding-top: 25px;
 }
 .logos-flex {
-/*  display: flex;
-    flex-direction: row;
-    align-items: stretch;*/
+  display: flex;
+   flex-direction: row;
+   align-items: stretch; 
 }
