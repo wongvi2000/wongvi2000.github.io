@@ -95,13 +95,13 @@
 /*main title style*/
 .title {
     padding-top: 0%;
-    font-size: 25px;
+    font-size: 50px;
     font-family: 'Satisfy', cursive;
 }
 .description {
     padding-top: 0%;
     padding-bottom: 0%;
-    font-size: 10px;
+    font-size: 25px;
     font-family: 'Unlock';
 }
 
