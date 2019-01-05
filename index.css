@@ -16,14 +16,14 @@
 }
 .shop-picture {
     padding-left: 0px;
-    width: 8000px;
+    width: 650px;
     height: 450px;
     padding-top: 25px;
 }
 /*Carousel picture for Shop & About Section*/
 .carousel-inner img{
     height: 450px;
-    width: 600px;
+    width: 650px;
 }
 /*about us div style*/
 .about {
