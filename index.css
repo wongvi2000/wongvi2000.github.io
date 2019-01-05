@@ -1,6 +1,6 @@
 ﻿/*shop div style*/
 .shop {
-    padding: 50px 10px 50px 10px;
+    padding: 0px 10px 0px 10px;
 }
 .shop-flex {
     padding-left: 30px;
@@ -26,9 +26,6 @@
     width: 600px;
 }
 /*about us div style*/
-.about {
-    padding: 40px 0px 40px 0px;
-}
 .about-flex {
     padding-left: 30px;
     padding-right: 15px;
