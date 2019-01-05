@@ -32,6 +32,9 @@
 .about-flex {
     padding-left: 30px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 .about-flex {
     padding-top: 15px;
