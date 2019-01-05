@@ -43,13 +43,13 @@
 .about-picture {
     padding-left: 0px;
     width: 450px;
-    height: 300px;
+    height: 350px;
 }
 .about-contents p2 {
     font-size: 18px
 }
 .about-contents {
-    padding-left: 0px
+    padding-left: 20px
 }
 .btn {
     padding-left: 0px;
