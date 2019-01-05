@@ -28,6 +28,7 @@
 /*about us div style*/
 .about {
     padding: 40px 0px 40px 0px;
+    height: 650px;
 }
 .about-flex {
     padding-left: 0px;
@@ -42,8 +43,8 @@
 }
 .about-picture {
 /*  padding-left: 0px;*/
-    height: 200px;
-    width: 400px;
+    height: 450px;
+    width: 600px;
 }
 .about-contents p2 {
     font-size: 18px
