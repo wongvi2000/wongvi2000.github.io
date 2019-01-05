@@ -32,19 +32,18 @@
 .about-flex {
     padding-left: 0px;
     padding-right: 0px;
-/*
     display: flex;
     flex-direction: row;
-    align-items: stretch; */
+    align-items: stretch;
 }
 .about-flex {
     padding-top: 15px;
     padding-bottom: 25px;
 }
 .about-picture {
-    padding-left: 0px;
-    height: 250px;
-    width: 450px;
+/*  padding-left: 0px;*/
+    height: 200px;
+    width: 400px;
 }
 .about-contents p2 {
     font-size: 18px
