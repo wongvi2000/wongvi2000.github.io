@@ -26,6 +26,7 @@
     flex: 1;
     height: 150px;
     text-align: center;
+    width:175px;
 }
 
 .social-media {
@@ -56,6 +57,7 @@
     color: white;
     text-align: center;
     padding-right: 30px;
+    padding-top: 50px
 }
 .legal-info {
     padding-top: 0px;
