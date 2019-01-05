@@ -30,9 +30,6 @@
     padding: 40px 0px 40px 0px;
 }
 .about-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
     padding-left: 30px;
     padding-right: 15px;
 }
@@ -41,7 +38,9 @@
     padding-bottom: 25px;
 }
 .about-picture {
-    padding-left: 0px
+    padding-left: 0px;
+    width: 600px;
+    height: 450px;
 }
 .about-contents p2 {
     font-size: 18px
