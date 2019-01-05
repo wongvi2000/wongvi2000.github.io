@@ -1,10 +1,3 @@
-.container {
-    padding-left: 0px;
-    padding-right: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
 /*shop div style*/
 .shop {
     padding: 50px 0px 50px 0px;
