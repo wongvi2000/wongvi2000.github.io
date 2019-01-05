@@ -27,13 +27,12 @@
     border-color: rgb(0,0,0);
     width: 900px;
     height: 500px;
-    margin-left: 110px;
+
 }
 .carousel-inner{
     overflow: hidden;
 }
 .map {
-    margin-left: 110px;
 }
 .map-text h3 {
     margin-left: 20px;
