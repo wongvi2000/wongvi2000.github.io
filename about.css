@@ -44,3 +44,7 @@
 .map-text p {
     padding-right: 10px;
 }
+.carousel-inner img {
+    width: 700px;
+    height: 500px;
+}
