@@ -112,6 +112,6 @@
 .logos-flex {
     display: flex;
     flex-direction: row;
-    align-items: left; 
+    align-items: stretch; 
     margin: auto;
 }
