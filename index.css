@@ -26,6 +26,9 @@
     width: 600px;
 }
 /*about us div style*/
+.about {
+    padding-top: 20px
+}
 .about-flex {
     padding-left: 30px;
     padding-right: 15px;
