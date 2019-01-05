@@ -28,7 +28,7 @@
 /*about us div style*/
 .about {
     padding: 40px 0px 40px 0px;
-    height: 500px;
+    height: 560px;
 }
 .about-flex {
     padding-left: 0px;
@@ -51,7 +51,7 @@
     font-size: 18px
 }
 .about-contents {
-    padding-left: 25px;
+    padding-left: 15px;
 }
 .btn {
     padding-left: 0px;
