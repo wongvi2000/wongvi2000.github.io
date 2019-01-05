@@ -96,13 +96,13 @@
 /*main title style*/
 .title {
     padding-top: 0%;
-    font-size: 65px;
+    font-size: 55px;
     font-family: 'Satisfy', cursive;
 }
 .description {
     padding-top: 0%;
     padding-bottom: 0%;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Unlock';
 }
 
@@ -110,7 +110,9 @@
     padding-top: 25px;
 }
 .logos-flex {
-  display: flex;
-   flex-direction: row;
-   align-items: stretch; 
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0;
+    float: left;
 }
