@@ -32,14 +32,16 @@
 }
 /*main title style*/
 .title {
-    padding-top: 5%;
-    font-size: 43px;
+    padding-top: 0%;
+    padding-left: 7%;
+    font-size: 75px;
     font-family: 'Satisfy', cursive;
 }
 .description {
     padding-top: 0%;
+    padding-left: 7%;
     padding-bottom: 0%;
-    font-size: 25px;
+    font-size: 40px;
     font-family: 'Unlock';
 }
 .titles {
@@ -128,4 +130,13 @@
         font-weight: bold;}
     .navbar-header {
         padding-right: 20px;}
+    .title {
+        padding-top: 5%;
+        font-size: 43px;
+        font-family: 'Satisfy', cursive;}
+    .description {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 25px;
+        font-family: 'Unlock';}
 }
