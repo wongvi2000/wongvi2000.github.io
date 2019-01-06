@@ -116,3 +116,10 @@
     align-items: stretch; 
     margin-right: 60px;
 }
+.footer-col2 {
+    flex: 1;
+    height: 150px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
