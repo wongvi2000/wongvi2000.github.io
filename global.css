@@ -9,8 +9,8 @@
 }
 .logo {
     transition: opacity 0.5s ease;
-    height: 80%;
-    width: 80%;
+    height: 75%;
+    width: 75%;
 }
 .logo:hover {
     opacity: 0.75;
