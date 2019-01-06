@@ -120,8 +120,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
         transition: opacity 0.5 ease;
-        height: 85%;
-        width: 85%;
+        height: 50%;
+        width: 50%;
         padding-top: 25px;}
     .headOpt {
         font-size: 23px;
