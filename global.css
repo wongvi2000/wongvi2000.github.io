@@ -18,7 +18,7 @@
 }
 
 .footer-title {
-    font-size: 24px;
+    font-size: 20px;
     color: white;
 }
 
@@ -97,7 +97,7 @@
 /*main title style*/
 .title {
     padding-top: 0%;
-    font-size: 43.5px;
+    font-size: 43px;
     font-family: 'Satisfy', cursive;
 }
 .description {
