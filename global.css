@@ -126,3 +126,6 @@
 .navbar-header {
     padding-right: 20px;
 }
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
