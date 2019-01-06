@@ -9,9 +9,8 @@
 }
 .logo {
     transition: opacity 0.5s ease;
-    height: 55%;
-    width: 55%;
-    padding-top: 25px;
+    height: 85%;
+    width: 85%;
 }
 .logo:hover {
     opacity: 0.75;
@@ -117,4 +116,12 @@
 }
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+    .logo {
+        transition: opacity 0.5 ease;
+        height: 85%;
+        width: 85%;
+        padding-top: 25px;}
 }
