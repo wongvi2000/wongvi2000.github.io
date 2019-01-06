@@ -71,8 +71,8 @@
 }
 .logo {
     transition: opacity 0.5s ease;
-    height: 60%;
-    width: 60%;
+    height: 55%;
+    width: 55%;
     padding-top: 25px;
 }
 .logo:hover {
@@ -97,7 +97,7 @@
 /*main title style*/
 .title {
     padding-top: 0%;
-    font-size: 43px;
+    font-size: 45px;
     font-family: 'Satisfy', cursive;
 }
 .description {
