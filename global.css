@@ -16,14 +16,14 @@
     opacity: 0.75;
 }
 /*nav bar style*/
-.navbar-header {
-    padding-right: 20px;
-}
 .headOpt {
     font-size: 23px;
-    padding-left: 25px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 20px;
     font-weight: bold;
+}
+.navbar-header {
+    padding-right: 20px;
 }
 .link {
     transition: color 0.5s ease;
@@ -124,4 +124,9 @@
         height: 85%;
         width: 85%;
         padding-top: 25px;}
+    .headOpt {
+    font-size: 23px;
+    padding-left: 25px;
+    padding-right: 50px;
+    font-weight: bold;}
 }
