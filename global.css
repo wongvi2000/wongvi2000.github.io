@@ -68,6 +68,7 @@
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1200px;
 }
 .logo {
     transition: opacity 0.5s ease;
