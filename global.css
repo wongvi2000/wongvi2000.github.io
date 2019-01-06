@@ -1,3 +1,62 @@
+/*logo style*/
+.jumbotron {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 3.5vh;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    transition: opacity 0.5s ease;
+    height: 55%;
+    width: 55%;
+    padding-top: 25px;
+}
+.logo:hover {
+    opacity: 0.75;
+}
+/*nav bar style*/
+.navbar-header {
+    padding-right: 20px;
+}
+.headOpt {
+    font-size: 23px;
+    padding-left: 25px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+.link {
+    transition: color 0.5s ease;
+    color: saddlebrown;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+/*main title style*/
+.title {
+    padding-top: 0%;
+    font-size: 43px;
+    font-family: 'Satisfy', cursive;
+}
+.description {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 25px;
+    font-family: 'Unlock';
+}
+
+.titles {
+    padding-top: 25px;
+}
+.logos-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+    margin-right: 60px;
+}
 .part1 { 
     background-color: rgb(219, 211, 197);
 }
@@ -60,65 +119,7 @@
 .legal-info {
     padding-top: 0px;
 }
-/*logo style*/
-.jumbotron {
-    margin-bottom: 0px;
-    padding-bottom: 30px;
-    padding-top: 3.5vh;
-    background-image: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.logo {
-    transition: opacity 0.5s ease;
-    height: 55%;
-    width: 55%;
-    padding-top: 25px;
-}
-.logo:hover {
-    opacity: 0.75;
-}
-/*nav bar style*/
-.navbar-header {
-    padding-right: 20px;
-}
-.headOpt {
-    font-size: 23px;
-    padding-left: 25px;
-    padding-right: 50px;
-    font-weight: bold;
-}
-.link {
-    transition: color 0.5s ease;
-    color: saddlebrown;
-}
 
-.link:hover {
-    text-decoration: none;
-    color: goldenrod;
-}
-/*main title style*/
-.title {
-    padding-top: 0%;
-    font-size: 43px;
-    font-family: 'Satisfy', cursive;
-}
-.description {
-    padding-top: 0%;
-    padding-bottom: 0%;
-    font-size: 25px;
-    font-family: 'Unlock';
-}
-
-.titles {
-    padding-top: 25px;
-}
-.logos-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch; 
-    margin-right: 60px;
-}
 .footer-col2 {
     flex: 1;
     height: 150px;
