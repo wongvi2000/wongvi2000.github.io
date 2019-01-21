@@ -1,0 +1,111 @@
+/*logo style*/
+.jumbotron {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 3.5vh;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .logo {
+  transition: opacity 0.5 ease;
+  height: 50%;
+  width: 50%;
+  padding-top: 25px;}
+.logo:hover {
+    opacity: 0.75;
+}
+/*nav bar style*/
+.headOpt {
+        font-size: 23px;
+        padding-left: 25px;
+        padding-right: 50px;
+        font-weight: bold;}
+.link {
+    transition: color 0.5s ease;
+    color: saddlebrown;
+}
+.link:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+/*main title style*/
+.title {
+        padding-top: 5%;
+        font-size: 45px;
+        padding-left: 0%;
+        font-family: 'Satisfy', cursive;}
+ .description {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        font-size: 20px;
+        font-family: 'Unlock';}
+.titles {
+    padding-top: 25px;
+}
+ .logos-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch; 
+        margin-right: 60px;}
+.part1 { 
+    background-color: rgb(219, 211, 197);
+}
+.part2 {
+     background-color: floralwhite;
+}
+/*Legal div style*/
+.legal {
+    background-color: black;
+    padding: 30px 10% 5px 10%;
+}
+.legal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+}
+.footer-title {
+    font-size: 20px;
+    color: white;
+}
+.footer-col {
+    flex: 1;
+    height: 150px;
+    text-align: center;
+}
+.social-media {
+    padding-top: 10px;
+}
+.social-logo {
+    transition: color 0.5s ease;
+    color: gray;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+}
+.social-logo:hover {
+    color: white;
+}
+.link-foot {
+    color: gray;
+}
+.link-foot:hover {
+    color: gray;
+}
+.copyright {
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;}
+.legal-info {
+    padding-top: 0px;
+}
+    .navbar-header {
+        padding-right: 20px;}
+    .footer-col2 {
+        flex: 1;
+        height: 150px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 30px;}
+}
