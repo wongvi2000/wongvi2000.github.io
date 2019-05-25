@@ -21,6 +21,9 @@
 }
 
 /*about us div style*/
+.carousel-inner img{
+    height: 425px;
+    width: 550px;
 .about {
     padding: 40px 0px 40px 0px;
 }
@@ -38,7 +41,7 @@
 .about-picture {
 /*  padding-left: 0px;*/
     height: 425px;
-    width: 350px;
+    width: 550px;
     padding-right: 60px;
 }
 .about-contents p2 {
