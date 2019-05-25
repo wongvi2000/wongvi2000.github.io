@@ -40,10 +40,14 @@
 }
 .about-picture {
 /*  padding-left: 0px;*/
-    height: 425px;
-    width: 550px;
     padding-right: 60px;
 }
+    
+.abt-img {
+    height: 425px;
+    width: 550px;
+}
+    
 .about-contents p2 {
     font-size: 18px
 }
