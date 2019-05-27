@@ -6,7 +6,7 @@
     padding-right: 10px;
 }
 .picture-flex {
-    padding-top: 0px;
+    padding-top: 0fpx;
     padding-bottom: 10px;
 }
 .back-button a {
@@ -17,13 +17,13 @@
     text-decoration: underline;
 }
 .gallery {
-   
+    margin-left: 200px;
 }
 .description3 {
     padding-top: 0%;
     padding-right: 6%;
     padding-bottom: 0%;
-    font-size: 25px;
+    font-size: 40px;
     font-family: 'Unlock';
 }
 
@@ -32,8 +32,6 @@
     width: 120px;
     font-family: 'Unlock';
     align-items:center;
-    text-align: center;
-    margin: 0 auto;
 }
 .carousel-inner img{
     height: 425px;
@@ -113,13 +111,16 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-.prev, .next, .text {
-    font-size: 11px
+  .prev, .next,.text {font-size: 11px}
 }
 .item-picture {
     padding-left: 30px;
 }
+
 .thumbnail:hover {
     opacity: 0.75;
 }
+    
+.picture-flex .item-picture1 {
+    padding-left: 70px;
 }
