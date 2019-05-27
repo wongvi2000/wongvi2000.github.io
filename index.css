@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: stretch;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 10px
 }
 .shop-flex {
     padding-top: 0px;
@@ -17,49 +17,55 @@
     font-size: 18px
 }
 .shop-picture {
-    padding-left: 30px;
+    padding-left: 30px
 }
-
-/*about us div style*/
+/*Carousel picture for Shop & About Section*/
 .carousel-inner img{
     height: 425px;
     width: 550px;
+}
+/*about us div style*/
 .about {
     padding: 40px 0px 40px 0px;
 }
 .about-flex {
-    padding-left: 0px;
-    padding-right: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+
+    padding-left: 30px;
+    padding-right: 15px;
 }
 .about-flex {
     padding-top: 15px;
     padding-bottom: 25px;
 }
 .about-picture {
-/*  padding-left: 0px;*/
-    padding-right: 60px;
+    padding-left: 0px
 }
-    
-.abt-img {
+.aboutimg{
     height: 425px;
     width: 550px;
 }
-    
-.about-contents p2 {
-    font-size: 18px
+.about-flex {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 .about-contents {
-    padding-left: 0px;
+    padding-left: 40px
 }
 .btn {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .about-button {
     display: block;
     margin: 0 auto;
-    width: 170px;
+    width: 175px;
+}
+.description1 {
+    padding-top: 0%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    font-size: 39px;
+    font-family: 'Unlock';
 }
