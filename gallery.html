@@ -1,126 +1,157 @@
-.picture-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    padding-left: 30px;
-    padding-right: 10px;
-}
-.picture-flex {
-    padding-top: 0fpx;
-    padding-bottom: 10px;
-}
-.back-button a {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    color: blue;
-    text-decoration: underline;
-}
-.gallery {
-    margin-left: 200px;
-}
-.description3 {
-    padding-top: 0%;
-    padding-right: 6%;
-    padding-bottom: 0%;
-    font-size: 40px;
-    font-family: 'Unlock';
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--Code to display favicon on address line--> 
+        <link rel="Shortcut Icon" href="res/img/index/favicon.jpg">
 
-.thumbnail {
-    height: 85px;
-    width: 120px;
-    font-family: 'Unlock';
-    align-items:center;
-}
-.carousel-inner img{
-    height: 425px;
-    width: 550px;
-}
-* {box-sizing: border-box}
-body {margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+        <!--Bootstrap Style libraries-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unlock">
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+        <!--Javascript libraries-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+        <!--Local Bootstrap libaries if no internet connectivity in res folder path-->
+        <link rel="stylesheet" type="text/css" href="res/bs-css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="res/fontawesome/web-fonts-with-css/css/fontawesome.min.css">
+        <link rel="stylesheet" type="text/css" href="about.css">
+        <link rel="stylesheet" type="text/css" href="global.css">
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgb(225,225,225);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.item-picture {
-    padding-left: 30px;
-}
-
-.thumbnail:hover {
-    opacity: 0.75;
-}
-    
-.picture-flex .item-picture1 {
-    padding-left: 70px;
-}
+        <!--Code to display text on address line-->
+        <title>Peking Arts & Antiques</title>
+    </head>
+    <body>
+        <!--Define start of Container for Jumbotron which includes logo, navbar enclosing same color-->
+        <div class="jumbotron text-center">
+                <div class="container">
+                    <div class="logos-flex">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html"><img class="logo" src="res/img/pkart-logo.jpg" alt="Peking Arts & Antiques Logo"></a>
+                        </div>
+                        <div class="titles">
+                            <h1 class="title">Peking Arts & Crafts</h1>
+                            <p2 class="description2">About Us</p2>
+                        </div>
+                    </div>
+                    <br>
+                    <ul class="nav justify-content-center">
+                        <li class="headOpt"><a href="index.html" class="link">Home</a></li>
+                        <li class="headOpt"><a href="gallery.html" class="link">Gallery</a></li>
+                        <li class="headOpt"><a href="about.html" class="link">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="part1">
+            <div class="container">
+            <div class="about-text">
+                        <br><br>
+                        <h3>About</h3>
+                        <p>You will find exquisite collectibles from the Han, Ming and other Chinese dynasties, including terracotta statues, porcelian figures, snuff bottles and jade statues. There are also 19<sup>th</sup> century paintings from mainland China, Korea, and Japan.</p>
+                        <br><br>
+                        <h3>History</h3>
+                        <p>Fonded in 1974 with our storefront location at 535 Sutter St. in heart of San Francisco Union Square, we continue to offer our clients the finest in Asian antiques and furniture.</p>
+                </div>
+            </div>
+                <div class="container">
+                <div class="store-front-pic">
+                    <div id="about_demo">
+                        <!--Carousel indicators-->
+                 
+                            
+                                <img src="img/pekingarts1.jpg" alt="About us image1" width="900" height="485">  
+                  </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div class="part2">
+            <br><br>
+            <div class="container">
+                <div class="map-text">
+                    <h3>Location</h3>
+                    <p>535 Sutter Street, San Francisco, CA 94102</p>
+                    <h3>Store Hours</h3>
+                    <table>
+                        <tr>
+                            <td>Monday-Friday</td>
+                            <td>&nbsp;&nbsp;&nbsp;11am-5:30pm</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>&nbsp;&nbsp;&nbsp;12pm-5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>&nbsp;&nbsp;&nbsp;Closed</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div class="telephone-number">
+                    <h3>Contact</h3>
+                    <p>415-433-6780</p>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="information-flex">
+                    
+                
+                </div>    
+            </div>
+        </div>
+        <!--Define start of the legal footer section-->
+        <footer class="legal">
+            <div class="container">
+                    <div class="container-fluid">
+                        <div class="legal-info">
+                            <div class="footer-col">
+                                <h2 class="footer-title">Contact</h2>
+                                <p>
+                                    535 Sutter Street, <br>
+                                    San Francisco, CA 94102 <br>
+                                    sfpekingarts@gmail.com <br>
+                                    (415) 433-6780
+                                </p>
+                            </div>
+                            <div class="footer-col">
+                                <h2 class="footer-title">Connect</h2>
+                                <div class="social-media">
+                                    <a href="#"><i class="fa fa-facebook-square social-logo"></i></a>
+                                    <a href="mailto:sfpekingarts@gmail.com"><i class="fa fa-envelope social-logo"></i></a>
+                                </div>
+                            </div>
+                            <div class="footer-col">
+                                <h2 class="footer-title">Links</h2>
+                                <a href="index.html" class="link-foot">Home</a><br>
+                                <a href="gallery.html" class="link-foot">Gallery</a><br>
+                                <a href="about.html" class="link-foot">About</a>
+                            </div>
+                        </div>
+                        <div class="copyright">Copyright Ⓒ 2019 Peking Arts & Antiques</div>
+                    </div>
+                </div>
+        </footer>
+        <script>
+            function initMap(){
+                var uluru = {lat: 37.788943, lng: -122.409317};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0nsa6NkNpLrAFA1mXJJSZM9EaRCimkCI&callback=initMap"
+        type="text/javascript"></script>
+        <script src="gallery.js" type="text/javascript"></script>
+    </body>
+</html>
