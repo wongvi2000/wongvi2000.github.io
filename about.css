@@ -1,4 +1,4 @@
-.description2 {
+﻿.description2 {
     padding-top: 0%;
     padding-right: 9%;
     padding-bottom: 0%;
@@ -21,17 +21,20 @@
     margin-left: 20px;
     padding-right: 121px;
 }
-.store-front-pic {
+.storefront {
     border-style: solid;
     border-width:8px;
     border-color: rgb(0,0,0);
-    width: 900px;
-    height: 500px;
-    margin-left: 110px;
+    width: 80%;
 }
-.store-front-pic{
+.storefront{
     overflow: hidden;
 }
+
+.about_demo {
+    text-align: center;
+}
+
 .map {
     margin-left: 110px;
 }

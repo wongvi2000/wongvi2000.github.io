@@ -1,3 +1,10 @@
+﻿.description1 {
+  padding-top: 0%;
+  padding-right: 7%;
+  padding-bottom: 0%;
+  font-size: 39px;
+  font-family: 'Unlock';
+}
 .picture-flex {
     display: flex;
     flex-direction: row;
@@ -19,14 +26,6 @@
 .gallery {
     margin-left: 200px;
 }
-.description3 {
-    padding-top: 0%;
-    padding-right: 6%;
-    padding-bottom: 0%;
-    font-size: 40px;
-    font-family: 'Unlock';
-}
-
 .thumbnail {
     height: 85px;
     width: 120px;
