@@ -71,8 +71,10 @@
 }
 .logo {
     transition: opacity 0.5s ease;
-    height: 85%;
-    width: 85%;
+    width: 12%;
+    position: absolute;
+    left: 85px;
+    top: 15px;
 }
 .logo:hover {
     opacity: 0.75;
@@ -96,13 +98,11 @@
 /*main title style*/
 .title {
     padding-top: 0%;
-    padding-left: 7%;
     font-size: 75px;
     font-family: 'Satisfy', cursive;
 }
 .description {
     padding-top: 0%;
-    padding-left: 7%;
     padding-bottom: 0%;
     font-size: 40px;
     font-family: 'Unlock';
@@ -110,11 +110,11 @@
 
 .titles {
     padding-top: 25px;
+    text-align: center;
 }
 .logos-flex {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
 }
 .footer-col2 {
     flex: 1;

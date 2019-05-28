@@ -1,13 +1,44 @@
+﻿.description1 {
+    padding-top: 0%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    font-size: 30px;
+    font-family: 'Unlock';
+}
+
 /*shop div style*/
 .shop {
     padding: 50px 10px 50px 10px;
 }
 .shop-flex {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: stretch;*/
+
+}
+.about-flex {
+    font-size: 18px;
+}
+.about-picture {
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .shop-flex {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding-left: 30px;
-    padding-right: 10px
+    }
+    .about-flex {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    }
+    .about-picture {
+    padding-left: 0px;
+    }
 }
 .shop-flex {
     padding-top: 0px;
@@ -17,7 +48,8 @@
     font-size: 18px
 }
 .shop-picture {
-    padding-left: 30px
+    padding-top: 12px;
+    text-align: center;
 }
 /*Carousel picture for Shop & About Section*/
 .carousel-inner img{
@@ -30,28 +62,21 @@
 }
 .about-flex {
 
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 15px;
 }
 .about-flex {
     padding-top: 15px;
     padding-bottom: 25px;
 }
-.about-picture {
-    padding-left: 0px
-}
 .aboutimg{
     height: 425px;
     width: 550px;
 }
-.about-flex {
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
+
 .about-contents {
-    padding-left: 40px
+    padding-top: 10px;
+    padding-left: 40px;
 }
 .btn {
     padding-left: 20px;
@@ -62,10 +87,4 @@
     margin: 0 auto;
     width: 175px;
 }
-.description1 {
-    padding-top: 0%;
-    padding-left: 7%;
-    padding-bottom: 0%;
-    font-size: 39px;
-    font-family: 'Unlock';
-}
+
